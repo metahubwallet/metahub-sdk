@@ -1,6 +1,6 @@
 # @metahubwallet/sdk
 
-Typed browser SDK for the [MetaHub](https://metahubwallet.io/) wallet extension.
+Typed browser SDK for the [MetaHub](https://wallet.metahub-ai.com) wallet extension.
 
 ## Install
 
