@@ -73,7 +73,7 @@ export function discoverProvider(opts: DiscoverOptions = {}): Promise<MetahubPro
             reject(
                 new MetahubError(
                     MetahubErrorCode.NotInstalled,
-                    `MetaHub not detected after ${timeoutMs}ms`
+                    `Metahub not detected after ${timeoutMs}ms`
                 )
             )
         }, timeoutMs)

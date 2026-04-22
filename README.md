@@ -1,6 +1,6 @@
 # @metahubwallet/sdk
 
-Typed browser SDK for the [MetaHub](https://wallet.metahub-ai.com) wallet extension.
+Typed browser SDK for the [Metahub](https://wallet.metahub-ai.com) wallet extension.
 
 ## Install
 
@@ -37,7 +37,7 @@ import {MetahubErrorCode} from '@metahubwallet/sdk'
 
 const res = await client.connect()
 if (!res.ok && res.reason === MetahubErrorCode.NotInstalled) {
-    // Prompt user to install MetaHub
+    // Prompt user to install Metahub
     return
 }
 ```
